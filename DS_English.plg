@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DS_English - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1.201\AppData\Local\Temp\RSPEF9C.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/DS_English.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\李绍晓文件夹\学习相关\自制英语软件\DS_English---用这个\DS_English.cpp"
+"F:\李绍晓文件夹\学习相关\自制英语软件\DS_English---用这个\DS_EnglishDoc.cpp"
+"F:\李绍晓文件夹\学习相关\自制英语软件\DS_English---用这个\DS_EnglishView.cpp"
+"F:\李绍晓文件夹\学习相关\自制英语软件\DS_English---用这个\Information.cpp"
+"F:\李绍晓文件夹\学习相关\自制英语软件\DS_English---用这个\Lexicon1.cpp"
+"F:\李绍晓文件夹\学习相关\自制英语软件\DS_English---用这个\LexSet.cpp"
+"F:\李绍晓文件夹\学习相关\自制英语软件\DS_English---用这个\MainFrm.cpp"
+"F:\李绍晓文件夹\学习相关\自制英语软件\DS_English---用这个\MODELSET.cpp"
+"F:\李绍晓文件夹\学习相关\自制英语软件\DS_English---用这个\Word.cpp"
+"F:\李绍晓文件夹\学习相关\自制英语软件\DS_English---用这个\WordAdd.cpp"
+"F:\李绍晓文件夹\学习相关\自制英语软件\DS_English---用这个\WordDo.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1.201\AppData\Local\Temp\RSPEF9C.tmp" 
+Creating temporary file "C:\Users\ADMINI~1.201\AppData\Local\Temp\RSPEF9D.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/DS_English.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\李绍晓文件夹\学习相关\自制英语软件\DS_English---用这个\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1.201\AppData\Local\Temp\RSPEF9D.tmp" 
+Creating temporary file "C:\Users\ADMINI~1.201\AppData\Local\Temp\RSPEF9E.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/DS_English.pdb" /debug /machine:I386 /out:"Debug/DS_English.exe" /pdbtype:sept 
+".\Debug\DS_English.obj"
+".\Debug\DS_EnglishDoc.obj"
+".\Debug\DS_EnglishView.obj"
+".\Debug\Information.obj"
+".\Debug\Lexicon1.obj"
+".\Debug\LexSet.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MODELSET.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Word.obj"
+".\Debug\WordAdd.obj"
+".\Debug\WordDo.obj"
+".\Debug\DS_English.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1.201\AppData\Local\Temp\RSPEF9E.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+d:\vc98\mfc\include\afxver_.h(130) : fatal error C1189: #error :  Please use the /MD switch for _AFXDLL builds
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+DS_English.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
